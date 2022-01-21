@@ -1,0 +1,6 @@
+{
+  "diffEditor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
