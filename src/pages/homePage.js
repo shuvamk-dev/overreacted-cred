@@ -1,5 +1,6 @@
 import React from "react";
 import BrandsLove from "../components/BrandsLove";
+import CredStory from "../components/CredStory";
 import MobileScroll from "../components/MobileScroll";
 import WindowPeak from "../components/WindowPeak";
 
@@ -11,6 +12,7 @@ const HomePage = () => {
       <div className="non-mobile">
         <WindowPeak />
       </div>
+      <CredStory />
     </>
   );
 };
