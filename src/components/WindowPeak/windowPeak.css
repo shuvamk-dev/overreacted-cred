@@ -1,0 +1,8 @@
+.window-peak {
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/image-mock.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

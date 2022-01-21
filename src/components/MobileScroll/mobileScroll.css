@@ -1,7 +1,7 @@
 .mobile-scroll {
   position: relative;
   padding-top: 70px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .scroll-full-screen-wrapper {
@@ -66,6 +66,9 @@
 }
 
 @media all and (max-width: 1279px) {
+  .mobile-scroll {
+    padding-bottom: 30px;
+  }
   .mobile-mockup {
     width: 272px;
     height: 480px;
