@@ -6,6 +6,7 @@
   font-weight: 700;
   padding: 20px 65px;
   border-radius: 40px;
+  width: max-content;
 }
 
 @media all and (max-width: 767px) {
