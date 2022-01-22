@@ -1,0 +1,34 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px 40px;
+}
+
+.header-logo {
+  height: 66px;
+}
+
+.header-toggle-btn {
+  color: var(--text);
+}
+
+.header-nav-item {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px 20px 0px 36px;
+}
+
+@media all and (max-width: 1279px) {
+  .header-logo {
+    height: 53px;
+  }
+  .header-nav-item {
+    margin: 0px 16px 0px 28px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header {
+    padding-bottom: 50px;
+  }
+}
