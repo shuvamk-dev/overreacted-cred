@@ -1,8 +1,12 @@
 import React from "react";
 import "./button.css";
-const Button = ({ buttonText, onClick }) => {
+const Button = ({ buttonText, onClick, prefix, customClass }) => {
   return (
-    <div className="button-wrapper flex absolute-center" onClick={onClick}>
+    <div
+      className={`button-wrapper flex absolute-center ${customClass}`}
+      onClick={onClick}
+    >
+      {prefix}
       {buttonText}
     </div>
   );
