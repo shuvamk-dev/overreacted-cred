@@ -60,6 +60,7 @@
   .hero-section {
     align-items: flex-start;
     text-align: left;
+    min-height: 70vh;
   }
   .hero-heading {
     font-size: 55px;
