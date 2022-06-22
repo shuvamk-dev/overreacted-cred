@@ -1,16 +1,11 @@
-.feel-special {
-  background-color: var(--bg-red);
-  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
-}
-
 @media all and (max-width: 1279px) {
-  .feel-special {
+  .info-container {
     background-position: center bottom;
   }
 }
 
 @media all and (max-width: 767px) {
-  .feel-special {
+  .info-container {
     background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
     min-height: 1150px;
     background-position: right center;
